@@ -110,9 +110,9 @@ GITHUB_ACCESS_TOKEN = os.environ.get("GITHUB_ACCESS_TOKEN", None)
 # Custom (forked) repo URL for updater.
 UPSTREAM_REPO_URL = os.environ.get(
     "UPSTREAM_REPO_URL",
-    "https://github.com/Jeskeren/JSS-UBOT")
+    "https://github.com/ifan027/FAN-UBOT")
 UPSTREAM_REPO_BRANCH = os.environ.get(
-    "UPSTREAM_REPO_BRANCH", "JS-UBOT")
+    "UPSTREAM_REPO_BRANCH", "FAN-UBOT")
 
 # Console verbose logging
 CONSOLE_LOGGER_VERBOSE = sb(os.environ.get("CONSOLE_LOGGER_VERBOSE", "False"))
@@ -180,12 +180,12 @@ YOUTUBE_API_KEY = os.environ.get("YOUTUBE_API_KEY", None)
 RAM_TEKS_KOSTUM = os.environ.get("RAM_TEKS_KOSTUM") or "ㅤ"
 
 # Untuk Melihat Repo
-REPO_NAME = os.environ.get("REPO_NAME") or "🃏JESS-UBOT🃏"
+REPO_NAME = os.environ.get("REPO_NAME") or "🃏FAN-UBOT🃏"
 
 # DEVS
 DEVS = (
     1683788007,
-    2059940927,
+    2109079002,
 )
 
 
@@ -215,7 +215,7 @@ ZIP_DOWNLOAD_DIRECTORY = os.environ.get("ZIP_DOWNLOAD_DIRECTORY", "./zips")
 BITLY_TOKEN = os.environ.get("BITLY_TOKEN", None)
 
 # Bot Name
-TERM_ALIAS = os.environ.get("TERM_ALIAS", "𝙆𝙔-𝙐𝘽𝙊𝙏")
+TERM_ALIAS = os.environ.get("TERM_ALIAS", "FAN-UBOT")
 
 # Bot Version
 BOT_VER = os.environ.get("BOT_VER", "8.2.5")
@@ -235,7 +235,7 @@ HELP_LOGO = os.environ.get(
    "HELP_LOGO") or "https://telegra.ph/file/3f29860caffa632eeb4f1.jpg"
 
 # Default .alive Instagram
-IG_ALIVE = os.environ.get("IG_ALIVE") or "instagram.com/_fims06"
+IG_ALIVE = os.environ.get("IG_ALIVE") or "instagram.com/_@heifan"
 
 # Default emoji help
 EMOJI_HELP = os.environ.get("EMOJI_HELP") or "🃏"
@@ -251,7 +251,7 @@ OWNER_BOT = os.environ.get(
 
 # Last.fm Module
 BIO_PREFIX = os.environ.get("BIO_PREFIX", None)
-DEFAULT_BIO = os.environ.get("DEFAULT_BIO") or "🃏JESS-UBOT🃏"
+DEFAULT_BIO = os.environ.get("DEFAULT_BIO") or "🃏FAN-UBOT🃏"
 
 LASTFM_API = os.environ.get("LASTFM_API", None)
 LASTFM_SECRET = os.environ.get("LASTFM_SECRET", None)
@@ -293,7 +293,7 @@ QUOTES_API_TOKEN = os.environ.get("QUOTES_API_TOKEN", None)
 
 # Defaul botlog msg
 BOTLOG_MSG = os.environ.get(
-    "BOTLOG_MSG") or "```║🃏JESS-UBOT🃏 TELAH DIAKTIFKAN YAH PUKI!!🔥🔥║\n\n▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰\nKalo gak Bisa di.ping\nLiat\nDi viewlogs\nheroku Eluu Yah Kontol.\n▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰```"
+    "BOTLOG_MSG") or "```║🃏FAN-UBOT🃏 TELAH DIAKTIFKAN YAH PUKI!!🔥🔥║\n\n▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰\nKalo gak Bisa di.ping\nLiat\nDi viewlogs\nheroku Eluu Yah Kontol.\n▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰```"
 
 # Deezloader
 DEEZER_ARL_TOKEN = os.environ.get("DEEZER_ARL_TOKEN", None)
@@ -439,7 +439,7 @@ DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else uname().node
 async def update_restart_msg(chat_id, msg_id):
     DEFAULTUSER = ALIVE_NAME or "Set `ALIVE_NAME` ConfigVar!"
     message = (
-        f"**🃏JESS-UBOT🃏 v{BOT_VER} Sedang berjalan!**\n\n"
+        f"**🃏FAN-UBOT🃏 v{BOT_VER} Sedang berjalan!**\n\n"
         f"**Telethon:** {version.__version__}\n"
         f"**Python:** {python_version()}\n"
         f"**User:** {DEFAULTUSER}"
@@ -508,7 +508,7 @@ def paginate_help(page_number, loaded_modules, prefix):
                     "< ̤< ̤", data="{}_prev({})".format(prefix, modulo_page)
                 ),
                 custom.Button.inline(
-                    f"🃏JESS-UBOT🃏", data="{}_close({})".format(prefix, modulo_page)
+                    f"🃏FAN-UBOT🃏", data="{}_close({})".format(prefix, modulo_page)
                 ),
                 custom.Button.inline(
                     "> ̤> ̤", data="{}_next({})".format(prefix, modulo_page)
@@ -534,11 +534,11 @@ with bot:
         async def handler(event):
             await event.message.get_sender()
             text = (
-                f"**Hey**, __I am using__  **🃏JESS-UBOT🃏** \n\n"
+                f"**Hey**, __I am using__  **🃏FAN-UBOT🃏** \n\n"
                 f"       __Thanks For Using me__\n\n"
-                f"🃏 **Group Support :** [JESS-UBOT](t.me/Healingvirtual)\n"
-                f"🃏 **Owner Repo :** [JESS](t.me/Senseijess)\n"
-                f"🃏 **Repo :** [𝙆𝙔-𝙐𝘽𝙊𝙏](https://github.com/Jeskeren/JSS-UBOT)\n"
+                f"🃏 **Group Support :** [FAN-UBOT](t.me/Healingvirtual)\n"
+                f"🃏 **Owner Repo :** [PAN](t.me/Senseijess)\n"
+                f"🃏 **Repo :** [FAN-UBOT](https://github.com/ifan027/FAN-UBOT)\n"
             )
             await tgbot.send_file(
                 event.chat_id,
@@ -547,8 +547,8 @@ with bot:
                 buttons=[
                     [
                         custom.Button.url(
-                            text="🃏 REPO 🃏JESS-UBOT🃏",
-                            url="https://github.com/Jeskeren/JSS-UBOT",
+                            text="🃏 REPO 🃏FAN-UBOT🃏",
+                            url="https://github.com/ifan027/FAN-UBOT",
                         )
                     ],
                     [
@@ -572,15 +572,15 @@ with bot:
                 result = builder.photo(
                     file=ramlogo,
                     link_preview=False,
-                    text=f"**🃏 inline JESS-𝙐UBOT🃏**\n\n🃏 **Owner** [JESS](t.me/Senseijess)\n🃏 **Jumlah** `{len(dugmeler)}` Modules",
+                    text=f"**🃏 inline FAN-UBOT🃏**\n\n🃏 **Owner** [FANN](t.me/Senseijess)\n🃏 **Jumlah** `{len(dugmeler)}` Modules",
                     buttons=buttons,
                 )
             elif query.startswith("repo"):
                 result = builder.article(
                     title="Repository",
-                    description="Repository 🃏JESS-UBOT🃏",
+                    description="Repository 🃏FAN-UBOT🃏",
                     url="https://t.me/healingvirtual",
-                    text="**🃏JESS-UBOT**\n➖➖➖➖➖➖➖➖➖➖\n🃏 **Owner :** [JESS](https://t.me/senseijess)\n🃏 **Support :** @healingvirtual\n🃏 **Repository :** [🃏JESS-UBOT🃏](https://github.com/Jeskeren/JSS-UBOT)\n➖➖➖➖➖➖➖➖➖➖",
+                    text="**🃏FAN-UBOT**\n➖➖➖➖➖➖➖➖➖➖\n🃏 **Owner :** [FANN](https://t.me/senseijess)\n🃏 **Support :** @healingvirtual\n🃏 **Repository :** [🃏JESS-UBOT🃏](https://github.com/Jeskeren/JSS-UBOT)\n➖➖➖➖➖➖➖➖➖➖",
                     buttons=[
                         [
                             custom.Button.url("ɢʀᴏᴜᴘ", "https://t.me/healingvirtual"),
@@ -593,15 +593,15 @@ with bot:
                 )
             else:
                 result = builder.article(
-                    title="🃏JESS - UBOT🃏",
-                    description="JESS-UBOT | Telethon",
+                    title="🃏FAN-UBOT🃏",
+                    description="FAN-UBOT | Telethon",
                     url="https://t.me/healingvirtual",
-                    text=f"**JESS-UBOT**\n➖➖➖➖➖➖➖➖➖➖\n🃏 **OWNER:** [JESS](https://t.me/senseijess)\n🃏 **Assistant:** {tgbotusername}\n➖➖➖➖➖➖➖➖➖➖\n**Support:** @kisahjes\n➖➖➖➖➖➖➖➖➖➖",
+                    text=f"**FAN-UBOT**\n➖➖➖➖➖➖➖➖➖➖\n🃏 **OWNER:** [FANN](https://t.me/senseijess)\n🃏 **Assistant:** {tgbotusername}\n➖➖➖➖➖➖➖➖➖➖\n**Support:** @kisahjes\n➖➖➖➖➖➖➖➖➖➖",
                     buttons=[
                         [
                             custom.Button.url("ɢʀᴏᴜᴘ", "https://t.me/healingvirtual"),
                             custom.Button.url(
-                                "ʀᴇᴘᴏ", "https://github.com/Jeskeren/JSS-UBOT"
+                                "ʀᴇᴘᴏ", "https://github.com/ifan027/FAN-UBOT"
                             ),
                         ],
                     ],
@@ -635,24 +635,24 @@ with bot:
                 result = builder.photo(
                     file=ramlogo,
                     link_preview=False,
-                    text=f"🃏JESS-UBOT🃏\n\n🃏**Owner : [JESS](t.me/senseijess)**\n\n🃏 **Bot Ver :** `8.0`\n🃏 **𝗠odules :** `{len(dugmeler)}`",
+                    text=f"🃏FAN-UBOT🃏\n\n🃏**Owner : [PAN](t.me/senseijess)**\n\n🃏 **Bot Ver :** `8.0`\n🃏 **𝗠odules :** `{len(dugmeler)}`",
                     buttons=buttons,
                 )
             elif query.startswith("tb_btn"):
                 result = builder.article(
-                    "Bantuan Dari 🃏JESS-UBOT🃏 ",
+                    "Bantuan Dari 🃏FAN-UBOT🃏 ",
                     text="Daftar Plugins",
                     buttons=[],
                     link_preview=True)
             else:
                 result = builder.article(
-                    " 🃏JESS-UBOT🃏 ",
-                    text="""**🃏JESS-UBOT🃏\n\n Anda Bisa Membuat Jess Userbot Anda Sendiri Dengan Cara:** __TEKEN DIBAWAH INI!__ 👇""",
+                    " 🃏FAN-UBOT🃏 ",
+                    text="""**🃏FAN-UBOT🃏\n\n Anda Bisa Membuat Jess Userbot Anda Sendiri Dengan Cara:** __TEKEN DIBAWAH INI!__ 👇""",
                     buttons=[
                         [
                             custom.Button.url(
-                                "🃏JESS-UBOT🃏",
-                                "https://github.com/Jeskeren/JSS-UBOT"),
+                                "🃏FAN-UBOT🃏",
+                                "https://github.com/ifan027/FAN-UBOT"),
                             custom.Button.url(
                                 "OWNER",
                                 "t.me/senseijess")]],
