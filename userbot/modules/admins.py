@@ -200,7 +200,7 @@ async def demote(dmod):
     # Assume we don't have permission to demote
     except BadRequestError:
         return await dmod.edit(NO_PERM)
-    await dmod.edit("`Admin Berhasil Dilepas! Makanya Kalo Jadi Admin Jangan semena mena yah ngentod sebagai`")
+    await dmod.edit("`Admin Berhasil Dilepas! Makanya Kalo Jadi Admin Jangan caper`")
     await sleep(5)
     await dmod.delete()
 
