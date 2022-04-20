@@ -1,4 +1,4 @@
-<a href="https://heroku.com/deploy?template=https://github.com/ifan027/Deploy.git"><img src="https://https://telegra.ph/file/cabef614010ce7260a76e.jpg
+<a href="https://heroku.com/deploy?template=https://github.com/ifan027/Deploy.git"><img src="https://telegra.ph/file/cabef614010ce7260a76e.jpg
 " width="320" height="211" alt="  FAN-USERBOT" /></a>
 
 <p align="center">
