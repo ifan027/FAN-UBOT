@@ -1,16 +1,16 @@
-<a href="https://heroku.com/deploy?template=https://github.com/Ifan027/Deploy.git"><img src="https://" width="320" height="211" alt="  FAN-USERBOT" /></a>
+<a href="https://heroku.com/deploy?template=https://github.com/ifan027/Deploy.git"><img src="https://telegra.ph/file/3f29860caffa632eeb4f1.jpg" width="320" height="211" alt="  JES-USERBOT" /></a>
 
 <p align="center">
-  <a href="https://github.com/ifan027/Deploy/fork">
-    <img src="https://img.shields.io/github/forks/ifan027/FAN-UBOT?label=Fork&style=social">
+  <a href="https://github.com/Ifan027/Deploy/fork">
+    <img src="https://img.shields.io/github/forks/Ifan027/FAN-UBOT?label=Fork&style=social">
     
   </a>
   <a href="https://github.com/Ifan027/FAN-UBOT">
-    <img src="https://img.shields.io/github/stars/Ifan027/FAN-UBOT?style=social">
+    <img src="https://img.shields.io/github/stars/ifan027/FAN-UBOT?style=social">
   </a>
 </p>  
 
-![VIEWS](https://komarev.com/ghpvc/?username=Vaaannnkeren)
+![VIEWS](https://komarev.com/ghpvc/?username=Jesxzy)
 
 <a href="https://t.me/obrolansuar/"><img src="https://img.shields.io/badge/KODE%20PENILAIAN-A+-blue.svg?style=for-the-badge&logo=Factor.">
 
@@ -20,5 +20,5 @@
 ## Credit
 TERIMAKASIH UNTUK
 
-*   [PENCARI RUPIAH]
-*   [FAN](https://t.me/Vaaannnkeren) - 🍃FAN-UBOT🍃
+*   [PENCARI RECEH]
+*   [FANN](https://t.me/Vaaannnkeren) - 🍃FAN-UBOT🍃
