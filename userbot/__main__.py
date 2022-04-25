@@ -18,7 +18,7 @@ try:
         imported_module = import_module("userbot.modules." + module_name)
     bot.start()
     call_py.start()
-    LOGS.info(f"🃏JESS-UBOT🃏 🦁 V{BOT_VER} [ TELAH DIAKTIFKAN TOD! ]")
+    LOGS.info(f"👌FAN-UBOT👌 🦁 V{BOT_VER} [ TELAH DIAKTIFKAN TOD! ]")
 except BaseException as e:
     LOGS.info(str(e), exc_info=True)
     sys.exit(1)
@@ -29,7 +29,7 @@ async def kyy_ubot_on():
         if BOTLOG_CHATID != 0:
             await bot.send_message(
                 BOTLOG_CHATID,
-                f"🃏Userbot berhasil di aktifkan Mekihh\n━━━━━━━━━━━━━━━\n❃ Bot Of : {ALIVE_NAME}\n❃ BotVer : {BOT_VER}@{UPSTREAM_REPO_BRANCH}\n━━━━━━━━━━━━━━━",
+                f"👌Userbot berhasil di aktifkan Yatod\n━━━━━━━━━━━━━━━\n❃ Bot Of : {ALIVE_NAME}\n❃ BotVer : {BOT_VER}@{UPSTREAM_REPO_BRANCH}\n━━━━━━━━━━━━━━━",
             )
     except Exception as e:
         LOGS.info(str(e))
