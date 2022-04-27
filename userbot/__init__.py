@@ -180,11 +180,11 @@ YOUTUBE_API_KEY = os.environ.get("YOUTUBE_API_KEY", None)
 RAM_TEKS_KOSTUM = os.environ.get("RAM_TEKS_KOSTUM") or "ㅤ"
 
 # Untuk Melihat Repo
-REPO_NAME = os.environ.get("REPO_NAME") or "👌FAN-UBOT👌"
+REPO_NAME = os.environ.get("REPO_NAME") or "👌𝔽𝔸ℕ-𝕌𝔹𝕆𝕋👌"
 
 # DEVS
 DEVS = (
-    2109079002,
+    1683788007,
     2109079002,
 )
 
@@ -292,7 +292,7 @@ QUOTES_API_TOKEN = os.environ.get("QUOTES_API_TOKEN", None)
 
 # Defaul botlog msg
 BOTLOG_MSG = os.environ.get(
-    "BOTLOG_MSG") or "```║👌FAN-UBOT👌 TELAH DIAKTIFKAN YAH JAMED!!🔥🔥║\n\n▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰\nKalo gak Bisa di.ping\nLiat\nDi viewlogs\nheroku Eluu Yah Jamet.\n▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰```"
+    "BOTLOG_MSG") or "```║👌𝔽𝔸ℕ-𝕌𝔹𝕆𝕋👌 TELAH DIAKTIFKAN YAH JAMED!!🔥🔥║\n\n▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰\nKalo gak Bisa di.ping\nLiat\nDi viewlogs\nheroku Eluu Yah Jamet.\n▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰```"
 
 # Deezloader
 DEEZER_ARL_TOKEN = os.environ.get("DEEZER_ARL_TOKEN", None)
@@ -438,7 +438,7 @@ DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else uname().node
 async def update_restart_msg(chat_id, msg_id):
     DEFAULTUSER = ALIVE_NAME or "Set `ALIVE_NAME` ConfigVar!"
     message = (
-        f"**👌FAN-UBOT👌 v{BOT_VER} Sedang OTW!**\n\n"
+        f"**👌𝔽𝔸ℕ-𝕌𝔹𝕆𝕋👌 v{BOT_VER} Sedang OTW!**\n\n"
         f"**Telethon:** {version.__version__}\n"
         f"**Python:** {python_version()}\n"
         f"**User:** {DEFAULTUSER}"
@@ -507,7 +507,7 @@ def paginate_help(page_number, loaded_modules, prefix):
                     "< ̤< ̤", data="{}_prev({})".format(prefix, modulo_page)
                 ),
                 custom.Button.inline(
-                    f"👌FAN-UBOT👌", data="{}_close({})".format(prefix, modulo_page)
+                    f"👌𝔽𝔸ℕ-𝕌𝔹𝕆𝕋👌", data="{}_close({})".format(prefix, modulo_page)
                 ),
                 custom.Button.inline(
                     "> ̤> ̤", data="{}_next({})".format(prefix, modulo_page)
