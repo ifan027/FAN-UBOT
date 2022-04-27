@@ -580,7 +580,7 @@ with bot:
                     title="Repository",
                     description="Repository 👌FAN-UBOT👌",
                     url="https://t.me/titik_temuu",
-                    text="**🃏FAN-UBOT**\n➖➖➖➖➖➖➖➖➖➖\👌 **Owner :** [FANN](https://t.me/Ipankerenygy)\n👌 **Support :** @titik_temuu\n👌 **Repository :** [👌FAN-UBOT👌](https://github.com/Ifan027/FAN-UBOT)\n➖➖➖➖➖➖➖➖➖➖",
+                    text="**👌FAN-UBOT**\n➖➖➖➖➖➖➖➖➖➖\👌 **Owner :** [FANN](https://t.me/Ipankerenygy)\n👌 **Support :** @titik_temuu\n👌 **Repository :** [👌FAN-UBOT👌](https://github.com/Ifan027/FAN-UBOT)\n➖➖➖➖➖➖➖➖➖➖",
                     buttons=[
                         [
                             custom.Button.url("ɢʀᴏᴜᴘ", "https://t.me/titik_temuu"),
@@ -596,7 +596,7 @@ with bot:
                     title="👌FAN-UBOT👌",
                     description="FAN-UBOT | Telethon",
                     url="https://t.me/titik_temuu",
-                    text=f"**FAN-UBOT**\n➖➖➖➖➖➖➖➖➖➖\n🃏 **OWNER:** [FANN](https://t.me/Ipankerenygy)\n🃏 **Assistant:** {tgbotusername}\n➖➖➖➖➖➖➖➖➖➖\n**Support:** @kisahjes\n➖➖➖➖➖➖➖➖➖➖",
+                    text=f"**FAN-UBOT**\n➖➖➖➖➖➖➖➖➖➖\n👌 **OWNER:** [FANN](https://t.me/Ipankerenygy)\n👌 **Assistant:** {tgbotusername}\n➖➖➖➖➖➖➖➖➖➖\n**Support:** @CH\n➖➖➖➖➖➖➖➖➖➖",
                     buttons=[
                         [
                             custom.Button.url("ɢʀᴏᴜᴘ", "https://t.me/titik_temuu"),
@@ -635,7 +635,7 @@ with bot:
                 result = builder.photo(
                     file=ramlogo,
                     link_preview=False,
-                    text=f"👌FAN-UBOT👌\n\n🃏**Owner : [PAN](t.me/Ipankerenygy)**\n\n🃏 **Bot Ver :** `8.0`\n🃏 **𝗠odules :** `{len(dugmeler)}`",
+                    text=f"👌FAN-UBOT👌\n\n👌**Owner : [PAN](t.me/Ipankerenygy)**\n\n👌 **Bot Ver :** `8.0`\n👌 **𝗠odules :** `{len(dugmeler)}`",
                     buttons=buttons,
                 )
             elif query.startswith("tb_btn"):
@@ -692,9 +692,9 @@ with bot:
                     buttons=[
                         [
                             Button.url("📢 Channel Support",
-                                       "t.me/Kisahjes"),
+                                       "t.me/CH"),
                             Button.url("🚨 Group support",
-                                       "t.me/Healingvirtual")],
+                                       "t.me/titik_temuu")],
                         [Button.inline("Open Menu", data="nepo")],
                         [custom.Button.inline(
                             "Close", b"close")],
