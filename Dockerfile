@@ -7,7 +7,7 @@ FROM ramadhani892/ramagans:slim-buster
 # ======================
 
 
-RUN git clone -b FAN-UBOT https://github.com/Ifan027/FAN-UBOT /home/fan_ubot/ \
+RUN git clone -b FAN-UBOT https://github.com/Ifan027/FAN-UBOT /home/ram-ubot/ \
     && chmod 777 /home/ram-ubot \
     && mkdir /home/ram-ubot/bin/
 WORKDIR /home/ram-ubot/
