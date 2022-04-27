@@ -198,11 +198,11 @@ TZ_NUMBER = int(os.environ.get("TZ_NUMBER", 1))
 
 # Picture For VCPLUGIN
 PLAY_PIC = (
-    os.environ.get("PLAY_PIC") or "https://telegra.ph/file/6213d2673486beca02967.png"
+    os.environ.get("PLAY_PIC") or "https://user-images.githubusercontent.com/103263515/164201084-169f3766-bfdf-4dd0-889e-2cf599f1393e.jpeg"
 )
 
 QUEUE_PIC = (
-    os.environ.get("QUEUE_PIC") or "https://telegra.ph/file/d6f92c979ad96b2031cba.png"
+    os.environ.get("QUEUE_PIC") or "https://user-images.githubusercontent.com/103263515/164201084-169f3766-bfdf-4dd0-889e-2cf599f1393e.jpeg"
 )
 
 # Clean Welcome
@@ -228,11 +228,10 @@ S_PACK_NAME = os.environ.get("S_PACK_NAME", None)
 
 # Default .alive Logo
 ALIVE_LOGO = os.environ.get(
-    "ALIVE_LOGO") or "https://telegra.ph/file/3f29860caffa632eeb4f1.jpg"
-
+    "ALIVE_LOGO") or "https://user-images.githubusercontent.com/103263515/164201084-169f3766-bfdf-4dd0-889e-2cf599f1393e.jpeg"
 # Default .helpme logo
 HELP_LOGO = os.environ.get(
-   "HELP_LOGO") or "https://telegra.ph/file/3f29860caffa632eeb4f1.jpg"
+   "HELP_LOGO") or "https://user-images.githubusercontent.com/103263515/164201084-169f3766-bfdf-4dd0-889e-2cf599f1393e.jpeg"
 
 # Default .alive Instagram
 IG_ALIVE = os.environ.get("IG_ALIVE") or "instagram.com/_@heifan"
