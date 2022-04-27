@@ -184,7 +184,7 @@ REPO_NAME = os.environ.get("REPO_NAME") or "👌FAN-UBOT👌"
 
 # DEVS
 DEVS = (
-    1683788007,
+    2109079002,
     2109079002,
 )
 
@@ -520,7 +520,7 @@ def paginate_help(page_number, loaded_modules, prefix):
 
 with bot:
     try:
-        bot(JoinChannelRequest("@Kisahjes"))
+        bot(JoinChannelRequest("CH"))
         bot(JoinChannelRequest("@fan-ubot"))
 
         dugmeler = CMD_HELP
@@ -536,9 +536,9 @@ with bot:
             text = (
                 f"**Hey**, __I am using__  **👌FAN-UBOT👌** \n\n"
                 f"       __Thanks For Using me__\n\n"
-                f"🃏 **Group Support :** [FAN-UBOT](t.me/titik_temuu)\n"
-                f"🃏 **Owner Repo :** [PAN](t.me/Ipankerengyg)\n"
-                f"🃏 **Repo :** [JESS-UBOT](https://github.com/ifan027/FAN-UBOT)\n"
+                f"👌 *👌*Group Support :** [FAN-UBOT](t.me/titik_temuu)\n"
+                f"👌 **Owner Repo :** [PAN](t.me/Ipankerengyg)\n"
+                f"👌 **Repo :** [FAN-UBOT](https://github.com/ifan027/FAN-UBOT)\n"
             )
             await tgbot.send_file(
                 event.chat_id,
